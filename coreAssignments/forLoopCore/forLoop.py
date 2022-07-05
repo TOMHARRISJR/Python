@@ -1,84 +1,52 @@
-num1 = 42
-num2 = 2.3
-boolean = True
-string = 'Hello World'
-pizza_toppings = ['Pepperoni', 'Sausage', 'Jalepenos', 'Cheese', 'Olives']
-person = {'name': 'John', 'location': 'Salt Lake', 'age': 37, 'is_balding': False}
-fruit = ('blueberry', 'strawberry', 'banana')
-print(type(fruit))
-print(pizza_toppings[1])
-pizza_toppings.append('Mushrooms')
-print(person['name'])
-person['name'] = 'George'
-person['eye_color'] = 'blue'
-print(fruit[2])
+# for i in range(0,150+1):
+#     print(i)
 
-if num1 > 45:
-    print("It's greater")
-else:
-    print("It's lower")
+# for i in range(5,1000,5):
+#     print(i)    
 
-if len(string) < 5:
-    print("It's a short word!")
-elif len(string) > 15:
-    print("It's a long word!")
-else:
-    print("Just right!")
+#range 0-100 
+#if divisible by 5 print coding
+#if divisible by 10 print coding dojo
 
-for x in range(5):
-    print(x)
-for x in range(2,5):
-    print(x)
-for x in range(2,10,3):
-    print(x)
-x = 0
-while(x < 5):
-    print(x)
-    x += 1
+# for i in range(0,101):
+#     if i % 10 == 0:
+#         print("Coding Dojo")
+#     elif i % 5 == 0:
+#         print("Coding")
+#     else:
+#         print(i)        
 
-pizza_toppings.pop()
-pizza_toppings.pop(1)
-
-print(person)
-person.pop('eye_color')
-print(person)
-
-for topping in pizza_toppings:
-    if topping == 'Pepperoni':
-        continue
-    print('After 1st if statement')
-    if topping == 'Olives':
-        break
-
-def print_hello_ten_times():
-    for num in range(10):
-        print('Hello')
-
-print_hello_ten_times()
-
-def print_hello_x_times(x):
-    for num in range(x):
-        print('Hello') # this is a comment
-
-print_hello_x_times(4)
-
-def print_hello_x_or_ten_times(x = 10):
-    for num in range(x):
-        print('Hello')
-
-print_hello_x_or_ten_times()
-print_hello_x_or_ten_times(4)
+# add odd integers 0 to 500,000
+# print final sum    
+# 
+# 1 loop
+# 2 find if number is odd
+# 3 add odd integers
+# 4 print final sum
+ 
+# finalSum = 0     #16                  # created a variable that will contain the final sum of all the odd numbers
+# for num in range(0,500000):
+#     if num % 2 != 0:                  #!= (not equal to)      #  if 0 is divisible by 2 and is not equal to 0 --(this line is checkin for odd number)
+#         finalSum = finalSum + num     #  then add odd+0 and reassign it to the odd variable
+# print(finalSum)                       # print the final sum.     
 
 
-"""
-Bonus section
-"""
+# print positive numbers starting at 2018
+#counting down by fours
 
-# print(num3)
-# num3 = 72
-# fruit[0] = 'cranberry'
-# print(person['favorite_team'])
-# print(pizza_toppings[7])
-#   print(boolean)
-# fruit.append('raspberry')
-# fruit.pop(1)
+# for num in range(2018,0,-4):
+#     print(num)
+
+
+# lowNum = 2
+# highNum = 9
+# mult = 3
+# for num in range(lowNum,highNum+1):
+#     if num % mult == 0:
+#         print(num)
+
+# set 3 variables
+# low num, high num, mult
+# Starting at low num to high num
+# print only integers that are a multiplt of mult
+    
