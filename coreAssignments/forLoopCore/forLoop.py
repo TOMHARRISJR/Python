@@ -23,7 +23,7 @@
 # 2 find if number is odd
 # 3 add odd integers
 # 4 print final sum
- 
+
 # finalSum = 0     #16                  # created a variable that will contain the final sum of all the odd numbers
 # for num in range(0,500000):
 #     if num % 2 != 0:                  #!= (not equal to)      #  if 0 is divisible by 2 and is not equal to 0 --(this line is checkin for odd number)
