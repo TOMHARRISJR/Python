@@ -13,7 +13,8 @@ class Student:
         self.course = course
     
     def print_info( self, message ):
-        print( message )                                                 #Method
+        #Method
+        print( message )                                                 
         print( f"name: {self.first_name}")
         print( f"age: {self.age}")
         print(f"instructor: {self.instructor}")
