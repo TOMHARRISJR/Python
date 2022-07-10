@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+
+#topBar {
+    padding: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 40px;
+    text-align: center;
+    color:red ;
+    background-color: rgb(255,217,184);
+}

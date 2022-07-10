@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>8x8</title>
+    <link rel="stylesheet" href="style8x8_1.css" />
+
+    <style>
+      table tr td {
+        width: 50px;
+        height: 50px;
+      }
+      .color1 {
+        background-color: red;
+      }
+      .color2 {
+        background-color: blue;
+    }
+
+    #topBar {
+        width: 500px;
+        padding: 20px;
+        margin-left: 225px;
+        margin-right: 500px;
+        margin-top: 40px;
+        text-align: center;
+        color:red ;
+        background-color: rgb(255,217,184);
+    }
+
+    .board{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+
+    </style>
+  </head>
+  <body>
+    <!-- <h1>6 by 6</h1>
+    <table>
+      {% for i in range(3): %}
+      <tr>
+        {% for j in range(3): %}
+        <td class="color1"></td>
+        <td class="color2"></td>
+        {% endfor %}
+      </tr>
+      <tr>
+        {% for j in range(3): %}
+        <td class="color2"></td>
+        <td class="color1"></td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </table> -->
+    <div id="topBar">
+      <h1>***Checkerboard***</h1>
+  </div>
+
+
+    <div class="board">
+    <table>
+      {% for i in range(8): %}
+      <tr>
+        {% for j in range(8): %}
+        <td class="color{{ (i+j)%2+1 }}"></td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </table>
+    </div>
+  </body>
+</html>
