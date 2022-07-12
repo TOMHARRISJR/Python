@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/process" method="post">
+      <div class="Name">
+        <label id="Name" for="Name">Your Name:</label>
+        <input name="Name" type="text" />
+      </div>
+      <div>
+        <label for="Location">Dojo Location:</label>
+        <select name="Location" id="">
+          <option value="Spokane">Spokane</option>
+          <option value="San Diego">San Diego</option>
+          <option value="Seattle">Seattle</option>
+        </select>
+      </div>
+      <div>
+        <label for="Language">Favorite Language:</label>
+        <select name="Language" id="">
+          <option value="JavaScript">JavaScript</option>
+          <option value="Python">Python</option>
+          <option value="Css">Css</option>
+          <option value="english">english</option>
+          <option value="confused">Me so confusion!☻</option>
+        </select>
+      </div>
+      <div>
+        <label for="Comment">Comment(Optional):</label>
+        <textarea name="Comment" id="" cols="30" rows="5"></textarea>
+        <button>Button</button>
+      </div>
+    </form>
+  </body>
+</html>
