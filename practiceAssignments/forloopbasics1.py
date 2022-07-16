@@ -46,7 +46,7 @@ def number_of_great_lakes():
 
 
 x = number_of_great_lakes()
-print(x)
+print(x)k
 # output  5 none
 
 
