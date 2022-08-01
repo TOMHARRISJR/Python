@@ -32,10 +32,155 @@ students = [
         {'first_name' : 'KB', 'last_name' : 'Tonel'}
     ]
 
-def iterateDictionary(some_list):
-    for i in range(len(students)):
-        print(i)
-        print('\n'.join("{}: {}".format(k, v) for k, v in students[i].items()))
+for i in range(len(students)):
+    output=''
+    for k,v in students[i].items():
+        output += f" {k} - {v}"
+    print(output)
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# def iterateDictionary(some_list):
+#     for i in range(len(students)):
+#         print(i)
+#         print('\n'.join("{}: {}".format(k, v) for k, v in students[i].items()))
         
 
 
